@@ -1,0 +1,74 @@
+/*--hw7.css
+Heron Melo
+heron_melo@student.uml.edu
+Student of GUI Programming I 91.61 - UML
+File Created on: 11/21/2020
+In this assignment we will implement our previous homework which was creating a dynamic table and 
+we will include JQuery UI library. Using sliders and tabs. */
+
+/*form styling */
+#form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#multiplicationTable {
+  width: auto;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* cell styling  */
+
+#multiplicationTable td {
+  border: 2px solid black;
+  text-align: right;
+  background-color: white;
+  padding: 5px;
+  width: 30px;
+}
+
+#multiplicationTable tbody tr:first-child td {
+  background-color: #0040f3;
+  color: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+/* alternative styling  */
+#multiplicationTable td:nth-child(),
+#multiplicationTable tr:nth-child() td {
+  background-color: white;
+}
+
+#errorMessage,
+.error {
+  color: red;
+}
+
+#multiplicationTable tbody td:first-child {
+  background-color: #0040f3;
+  color: white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+/* slider styling
+.background-div {
+ height:50px; width:217px; padding:36px 0 0 24px;
+ background-color:rgba(255, 0, 0, 0.5);
+ background:url(../img/slider_outerbg.gif) no-repeat;
+}
+#mySlider {
+ width:184px; height:23px; border:none; position:relative;
+ left:4px; top:4px;
+ background-color: rgba(0,0,155, 0.8);
+ background:url(../img/slider_bg.gif) no-repeat;
+}
+#mySlider .ui-slider-handle {
+ width:14px; height:30px; top:-4px;
+ background-color: green;
+ background:url(../img/slider_handle.gif) no-repeat;
+} */
