@@ -136,7 +136,7 @@ function createTable(minColVal, maxColVal, minRowVal, maxRowVal) {
 }
 
 // invalid chars
-var invalidChars = ["+", "e", ".", "/", "-", "*", "#", "$", "%", "&", "!"];
+var invalidChars = ["+", "e", ".", "/", "*", "#", "$", "%", "&", "!"];
 inputArray.forEach(function (element) {
   element.addEventListener("keydown", function (e) {
     if (invalidChars.includes(e.key)) {
